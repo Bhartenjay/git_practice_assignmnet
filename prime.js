@@ -1,16 +1,13 @@
-let num =5;
 
-
-let fact=0;
+let count =0;
 for(let i=1; i<=num; i++){
+    
     if(num%i==0){
-        fact++
+        count++ 
     }
-}
+}if(count==2){
+    console.log(num + ' is prime number')
+}else{
+    console.log(num + ' is not a prime number')
 
-if(fact==2){
-  console.log("Num is Prime");
-}
-else {
-    console.log("Num is Not Prime");
 }
